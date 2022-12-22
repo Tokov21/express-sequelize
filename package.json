@@ -4,13 +4,14 @@
   "description": "",
   "private": "true",
   "scripts": {
-    "start": "nodemon ./"
+    "start": "nodemon ./app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "sequelize-cli": "^6.5.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"

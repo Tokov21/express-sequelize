@@ -1,8 +1,8 @@
-const userRouter = require("express").Router();
+const usersRouter = require("express").Router();
 
-userRouter.get("/", (req, res) => {
+usersRouter.get("/", (req, res) => {
   console.log("users");
   res.send("users");
 });
 
-module.exports = userRouter;
+module.exports = usersRouter;
